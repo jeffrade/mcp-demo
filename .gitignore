@@ -1,0 +1,5 @@
+.claude
+bin/
+lib64
+lib/
+__pycache__/

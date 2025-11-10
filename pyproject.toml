@@ -1,0 +1,14 @@
+[project]
+name = "mcp-demo"
+version = "0.1.0"
+description = "Model Context Protocol demonstration"
+authors = [{name = "Your Name", email = "you@example.com"}]
+requires-python = ">=3.11"
+dependencies = [
+    "mcp[cli] (>=1,<2)",
+    "fastapi[standard] (>=0.115,<1)",
+]
+
+[tool.poetry]
+package-mode = false
+
