@@ -1,10 +1,7 @@
-.PHONY: run dev install clean
+.PHONY: run install clean
 
 run:
-	poetry run fastapi dev main.py
-
-dev:
-	poetry run fastapi dev main.py
+	poetry run uvicorn main:app --reload
 
 install:
 	poetry install
